@@ -75,7 +75,7 @@ Original_Oral_Cancer_Images
     └─OSCC   :num_images = 92
     
 </pre>
-, where OSCC is Oral Squamous Cell Carcinoma. 
+, where OSCC is Oral Squamous Cell Carcinoma. <br>
 
 <b>
 2. Merge test, train, and val to master<br>
