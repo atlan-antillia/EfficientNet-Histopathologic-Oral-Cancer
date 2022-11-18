@@ -59,7 +59,7 @@ You will have the following directory tree:<br>
 1. Downoad dataset<br>
 </b>
 The image dataset used here has been taken from the following website:<br><a href="https://github.com/MicheleDamian/prostate-gleason-dataset">MicheleDamian/prostate-gleason-dataset</a>
-<a href="https://www.kaggle.com/datasets/ashenafifasilkebede/dataset">Histopathologic Oral Cancer Detection using CNNs</a><br<
+<a href="https://www.kaggle.com/datasets/ashenafifasilkebede/dataset">Histopathologic Oral Cancer Detection using CNNs</a><br>
 
 <br>
 <pre>
@@ -75,6 +75,8 @@ Original_Oral_Cancer_Images
     └─OSCC   :num_images = 92
     
 </pre>
+, where OSCC is Oral Squamous Cell Carcinoma. 
+
 <b>
 2. Merge test, train, and val to master<br>
 </b>
@@ -386,5 +388,12 @@ References
 <b>1. Histopathologic Oral Cancer Detection using CNNs</b><br>
 <pre>
 https://www.kaggle.com/datasets/ashenafifasilkebede/dataset<br><br>
+</pre>
+
+<b>2. Histopathologic Oral Cancer Prediction Using Oral Squamous Cell Carcinoma Biopsy Empowered with Transfer Learning</b><br>
+Atta-ur Rahman,Abdullah Alqahtani,Nahier Aldhafferi,Muhammad Umar Nasir,Muhammad Farhan Khan,
+Muhammad Adnan Khan and Amir Mosavi<br>
+<pre>
+https://www.mdpi.com/1424-8220/22/10/3833/htm
 </pre>
 
