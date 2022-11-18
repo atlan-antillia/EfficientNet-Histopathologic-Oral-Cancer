@@ -78,7 +78,7 @@ Original_Oral_Cancer_Images
 <b>
 2. Merge test, train, and val to master<br>
 </b>
-The number of images of test and val directories seems to be too small to use the validation and testing on this model training.
+The number of images of test and val directories seems to be too small to use for the validation and testing on this model training.
 Therefore, we have merged those images to one master directory:
 
 <pre>
@@ -91,8 +91,8 @@ Oral_Cancer_Images-master
 <b>
 3. Resize the master dataset<br>
 </b>
-Furthermore, we have created <b>Oral_Cancer_224x224_Images</b> dataset by using resize.py script
-which resizes all images in the master dataset to be the same 224x224 size.<br>
+Furthermore, we have created <b>Oral_Cancer_224x224_Images</b> dataset by using <a href="./projects/Oral-Cancer/resize.py">resize.py</a>
+ script to resize all images in the master dataset to be the same 224x224.<br>
 
 <pre>
 Oral_Cancer_224x224_Images
@@ -103,7 +103,8 @@ Oral_Cancer_224x224_Images
 <b>
 4. Spit master dataset<br>
 </b>
-Finally we have created <b>Oral_Cancer_Images</b> dataset by using split_master.py script.<br>
+Finally we have created <b>Oral_Cancer_Images</b> dataset by applying <a href="./projects/Oral-Cancer/split_master.py">
+split_master.py</a> script to the master dataset.<br>
 <pre>
 Oral_Cancer_Images
 ├─test
@@ -112,7 +113,6 @@ Oral_Cancer_Images
 └─train
     ├─Normal
     └─OSCC
-
 </pre>
 
 The distribution of the number of images <b>Oral_Cancer_Images</b> dataset is the following.<br>
@@ -193,7 +193,7 @@ Please download the pretrained checkpoint file from <a href="https://storage.goo
 <a id="4.1">4.1 Train script</a>
 </h3>
 Please run the following bat file to train our Oral-Cancer Classification efficientnetv2 model by using
-<a href="./projects/Oral-Cancer/Oral_Cancer_Images/train">Resampled_Kidney_Simpler_Disease_Images/train</a>.
+<a href="./projects/Oral-Cancer/Oral_Cancer_Images/train">Oral_Cancer_Images/train</a>.
 <pre>
 ./1_train.bat
 </pre>
