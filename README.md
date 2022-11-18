@@ -53,7 +53,7 @@ You will have the following directory tree:<br>
         └─test
 </pre>
 <h3>
-<a id="1.2">1.2 Prepare Oracl_Cancer dataset</a>
+<a id="1.2">1.2 Prepare Oral_Cancer dataset</a>
 </h3>
 <b>
 1. Downoad dataset<br>
