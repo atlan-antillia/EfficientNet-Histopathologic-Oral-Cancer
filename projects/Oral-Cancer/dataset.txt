@@ -1,0 +1,5 @@
+This image dataset used here has been taken from the following website:
+Histopathologic Oral Cancer Detection using CNNs
+https://www.kaggle.com/datasets/ashenafifasilkebede/dataset
+License
+CC0: Public Domain
