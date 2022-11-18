@@ -388,7 +388,7 @@ References
 </h3>
 <b>1. Histopathologic Oral Cancer Detection using CNNs</b><br>
 <pre>
-https://www.kaggle.com/datasets/ashenafifasilkebede/dataset<br><br>
+https://www.kaggle.com/datasets/ashenafifasilkebede/dataset
 </pre>
 
 <b>2. Histopathologic Oral Cancer Prediction Using Oral Squamous Cell Carcinoma Biopsy Empowered with Transfer Learning</b><br>
